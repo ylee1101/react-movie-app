@@ -30,7 +30,7 @@ function Movie({title, poster, genres, synopsis}){
                 <div className="Movie_Genres">
                     {genres.map((genre, index) => <MovieGenres genre={genre} key ={index}/> )}
                 </div>
-                <div className="synopsis">
+                <div className="Movie_Synopsis">
                 <LinesEllipsis
                     text={synopsis}
                     maxLine='3'

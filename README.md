@@ -1,3 +1,3 @@
-This is an react application with movice api.
+This is an React Web Application with movie api.
 
-installed prop-types
+![Alt text](/../sc.jpg?raw=true "Screenshot")
