@@ -1,3 +1,3 @@
 This is an React Web Application with movie api.
 
-![Alt text](/../sc.jpg?raw=true "Screenshot")
+![Alt text](/sc.jpg?raw=true "Screenshot")
