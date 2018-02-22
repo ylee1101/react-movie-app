@@ -18,6 +18,8 @@ class App extends Component {
   // }
   state = {}
 
+  
+
   componentDidMount() {
     this._getMovies();
   }
@@ -52,10 +54,14 @@ class App extends Component {
   render() {
     const { movies } = this.state;
     return (
-      <div className={movies ? "App" : "App--loading"}>
-        {movies ? this._renderMovies() : "WAIT! FUCKING Loading Loading"}
+      <div className="main">
+        <div className="title">
+          <p>Here are the top movie lists </p>
+        </div>
+        <div className={movies ? "App" : "App--loading"}>
+          {movies ? this._renderMovies() : "WAIT! Loading Wait please~"}
+        </div>
       </div>
-
     );
   }
 }
